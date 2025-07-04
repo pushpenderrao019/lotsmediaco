@@ -38,7 +38,15 @@ const Footer = () => {
         
         <div className="pt-8 border-t border-soft-white/10 flex flex-col md:flex-row justify-between items-center">
           <p className="text-soft-white/70 text-sm">
-            © 2025 LOTS Media. All rights reserved. Designed with love by Pushpender Rao.
+            © 2025 LOTS Media. All rights reserved. Made with ❤️ by{" "}
+              <a 
+                href="https://pushpenderrao019.github.io/portfolio/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 underline transition-colors duration-200"
+              >
+                Pushpender Rao
+              </a>
           </p>
           
           <div className="mt-4 md:mt-0 flex space-x-6">
